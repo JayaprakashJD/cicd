@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fantastic Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        .hero {
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            background: white;
+            color: #764ba2;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #f1f1f1;
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            width: 250px;
+            backdrop-filter: blur(10px);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h2>Fantastic</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>Build Something Amazing</h1>
+    <p>Create modern websites with simple HTML & CSS</p>
+    <a href="#" class="btn">Get Started</a>
+</div>
+
+<div class="features">
+    <div class="card">
+        <h3>Fast</h3>
+        <p>Optimized and lightweight design.</p>
+    </div>
+    <div class="card">
+        <h3>Responsive</h3>
+        <p>Works perfectly on mobile and desktop.</p>
+    </div>
+    <div class="card">
+        <h3>Modern</h3>
+        <p>Clean and attractive UI layout.</p>
+    </div>
+</div>
+
+<footer>
+    © 2026 Fantastic Website | All Rights Reserved
+</footer>
+
+</body>
+</html>
